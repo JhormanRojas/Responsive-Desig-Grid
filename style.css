@@ -136,6 +136,10 @@ nav ul li a:hover{
         transition: all 0.5s;
     }
 
+    .formulario{
+        display: none;
+    }
+
     nav ul li{
         display: block;
         margin: 50px auto;
