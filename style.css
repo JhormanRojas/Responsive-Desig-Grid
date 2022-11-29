@@ -20,7 +20,7 @@ nav {
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     justify-content: space-between;
 }
 
@@ -39,6 +39,25 @@ nav {
     font-size: 1.3rem;
     display: grid;
     place-content: center;
+}
+
+.formulario{
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+}
+
+.formulario h2 {
+    font-size: 20px;
+    margin: 10px;
+}
+.contenedor-registro{
+    padding: 3px;
+    background-color: lightgreen;
+}
+
+.registro{
+    margin: 10px;
 }
 
 nav ul {
